@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-size: 62.5;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif ;
+}
+section{
+    padding-bottom: 100PX;
+}
+#header{
+    background-color: #FFFFFF;
+}
+#header .container{
+     padding-top: 100px;
+     display: flex;
+
+}
+.headerDescription{
+    margin-left: 50px;
+    width: 50%;
+    
+}
+.headerTitle{
+    border-left:4PX SOLID #FF428D;
+    padding-left: 8PX;
+}
+.headerDescription h1{
+    font-size: 3rem;
+
+}
+.headerDescription .h1style{
+    color:#f80348;
+}
+.headerDescription button{
+    width:120px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: #f80348;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+
+}
+.headerDescription p{
+    font-size:18px;
+    margin-top:20px;
+}
+.headerImg{
+    margin-left: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerImg img{
+    width:500PX;
+    height: 500px;
+}
+#mission .container h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+#mission .container h1 span{
+    color:#f80348;
+}
+#mission .container .mission-box{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 100PX auto;
+    
+}
+
+#mission .container .mission-box .vission{
+    margin: 20px;
+    height: 360px;
+    background-color:black;
+    color:white;
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px black;
+}
+#mission .container .mission-box div{
+    margin: 20px;
+    height: 360px;
+    background-color: #bcdbe0;
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px black;
+}
+#mission .container .mission-box div h4{
+    font-size: 1.5rem;
+    padding: 15px;
+}
+#mission .container .mission-box div img{
+    width: 10rem;
+}
+#develop .container{
+    display: flex;
+     margin:0 auto ;
+    width: 1170px;
+
+
+}
+#develop .container .devImg{
+       width:50%;
+ 
+}
+#develop .container .devImg img{
+    width: 100%;
+}
+#develop .container .devDescription{
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+#develop .container .devDescription h1{
+    font-size:2.5rem;
+    font-weight: 700;
+    padding-top: 20px;
+    font-family: arial;
+}
+#develop .container .devDescription p{
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+#develop .container .devDescription a{
+    text-decoration: none;
+    color:white;
+    padding: 20px 30px;
+    background-color: #f80348;
+    
+}
+#company .container{
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+}
+#company .container .companyDescription{
+    width: 50%;
+    margin-top: 50px;
+}
+#company .container .companyDescription h2{
+    font-size:2.5rem;
+     padding: 10px;
+     font-family: arial;
+}
+#company .container .companyDescription p{
+    font-size:16px;
+     padding-top: 40px;
+     padding-bottom: 50px;
+}
+#company .container .companyDescription a{
+    text-decoration: none;
+    color:white;
+    padding: 20px 30px;
+    background-color: #f80348;
+    
+    
+}
+
+#company .container .comImg{
+    width:50%;
+    display: flex;
+    align-items: right;
+}
+#company .container .comImg img{
+    width: 500px;
+    margin-left: 50px;
+}
+#about center{
+font-size: 2rem;
+font-weight: 600;
+
+}
+#about .container{
+    width: 1170px;
+    display: flex;
+    margin:0 auto;
+    padding-top: 40px;
+}
+#about .container .img{
+    width: 50%;
+}
+#about .container .img img{
+    width: 100%;
+}
+#about .container .aboutDecpt{
+    width: 50%;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: left;
+}
+#about .container .aboutDecpt h1{
+    font-size: 2rem;
+    padding: 20px;
+}
+#about .container .aboutDecpt h1 span{
+    color:#f80348;
+}
+#about .container .aboutDecpt p{
+    margin-top: 30px;
+    font-size: 16px;
+
+}
+#about .container .aboutDecpt button{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color:white;
+    background-color: #f80348;
+    border:none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+footer{
+    background-color: black;
+}
+footer h1{
+    text-align: center;
+    color:white;
+    padding: 20px;
+   
+}
+footer p{
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+footer  span{
+    color:#f80348;
+}
